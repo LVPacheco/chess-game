@@ -25,13 +25,10 @@ public class Main {
 			UI.printMatch(chessMatch, captured);
 			System.out.println();
 			System.out.print("Source: ");
-			ChessPosition source = UI.readChessPosition(in);
-				
+			ChessPosition source = UI.readChessPosition(in);	
 			boolean[][] possibleMoves = chessMatch.possibleMoves(source);
 			UI.clearScreen();
 			UI.printBoard(chessMatch.getPieces(), possibleMoves);
-			
-			
 			System.out.println();
 			System.out.print("Target: ");
 			ChessPosition target = UI.readChessPosition(in);
