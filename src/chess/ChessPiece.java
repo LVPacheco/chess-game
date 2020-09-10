@@ -19,9 +19,5 @@ public abstract class ChessPiece extends Piece {
 		return color;
 	}
 
-	@Override
-	public Boolean[][] possibleMoves(){
-		return null;
-	}
-	
+
 }

@@ -14,4 +14,10 @@ public class Knight extends ChessPiece{
 	public String toString() {
 		return "k";
 	}
+
+	@Override
+	public boolean[][] possibleMoves() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
